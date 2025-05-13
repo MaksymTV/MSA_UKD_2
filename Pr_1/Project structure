@@ -1,0 +1,13 @@
+MicrokernelApp/
+│
+├── Core/                   // Ядро
+│   ├── IModule.cs         // Інтерфейс для модулів
+│   └── Kernel.cs          // Клас ядра: завантаження, виконання, вивантаження
+│
+├── Modules/
+│   ├── TaskModule.dll
+│   ├── AuthModule.dll
+│   └── NotificationModule.dll
+│
+├── Program.cs             // Точка входу
+└── Plugins/               // Каталог для завантаження модулів
